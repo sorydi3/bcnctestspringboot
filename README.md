@@ -31,21 +31,19 @@ DATABASE
 The application uses an H2 database. The database is initialized using a bean method that is executed at startup. The bean method creates some sample data
 that can be used to test the application.
 
-    The database can be accessed using the h2 console at http://localhost:8080/h2-console
-            The console can be accessed using the following credentials:
-            - JDBC URL: jdbc:h2:mem:testdb
-            - User Name: sa
-            - Password: password
+The database can be accessed using the h2 console at http://localhost:8080/h2-console
 
-    The prices are stored in the price table. The price table has the following columns:
-    - id: The price id.
-    - brand_id: The brand id.
-    - product_id: The product id.
-    - price_list_id: The price list id.
-    - start_date: The start date of the price.
-    - end_date: The end date of the price.
-    - price: The price value.
-    - currency: The currency of the price.
+The database is configured to be in memory, so the data is lost when the application is stopped.
+
+The prices are stored in the price table. The price table has the following columns:
+- id: The price id.
+- brand_id: The brand id.
+- product_id: The product id.
+- price_list_id: The price list id.
+- start_date: The start date of the price.
+- end_date: The end date of the price.
+- price: The price value.
+- currency: The currency of the price.
 
 
 REST API
