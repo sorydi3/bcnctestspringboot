@@ -21,6 +21,7 @@ The project is structured in the following packages:
 - com.example.demo.model: Package with the model classes.
 - com.example.demo.repository: Package with the Spring Data JPA repositories.
 - com.example.demo.service: Package with the service classes and custom exceptions.
+- com.
 
 - src/test/java: Package with the unit tests.
 - src/test/resources: Package with the test configuration files.
